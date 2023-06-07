@@ -1,0 +1,5 @@
+# Created at 2023-12-05T07:26:05.798
+Boot Manifest-JAR contains absolute paths in classpath 'F:\My_Work\Spring\sample\_maven_spring3.0_EasyShop-Springboot-eCommerce\EasyShopWebParent\EasyShopBackEnd\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
