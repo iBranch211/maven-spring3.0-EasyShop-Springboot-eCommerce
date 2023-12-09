@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymleaf-extras-springsecurity6">
+    <head th:replace="fragments :: page_head('Home - EasyShop Admin')" />
+    <body>
+        <div class="container-fluid">
+            <div th:replace="navigation :: menu" />
+
+            <div>
+                <h1>EasyShop - Admin control panel</h1>
+                <span>Welcome</span>
+                <a th:href="@{/account}" sec:authentication="principal.fullname" />
+                &nbsp;
+                <span sec:authentication="principal.authorities" />
+            </div>
+
+            <div th:replace="fragments :: footer" />
+        </div>
+    </body>
+</html>
